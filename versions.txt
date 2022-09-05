@@ -1,0 +1,4 @@
+terminal app -> git bash version 
+node version 16.13.2
+npm version 8.1.2
+text editor -> vscode
