@@ -11,10 +11,10 @@ public class DueDateCounter {
 
     public static void main(String[] args){
         LocalDate date = LocalDate.now();
-        System.out.println("There are " + date.until(lab1Date, ChronoUnit.DAYS) + " days until lab 1 is due");
-        System.out.println("There are " + date.until(lab2Date, ChronoUnit.DAYS) + " days until lab 2 is due");
-        System.out.println("There are " + date.until(lab3Date, ChronoUnit.DAYS) + " days until lab 3 is due");
-        System.out.println("There are " + date.until(lab4Date, ChronoUnit.DAYS) + " days until lab 4 is due");
+        System.out.println("There are " + date.until(lab1Date, ChronoUnit.DAYS) + " day(s) until lab 1 is due");
+        System.out.println("There are " + date.until(lab2Date, ChronoUnit.DAYS) + " day(s) until lab 2 is due");
+        System.out.println("There are " + date.until(lab3Date, ChronoUnit.DAYS) + " day(s) until lab 3 is due");
+        System.out.println("There are " + date.until(lab4Date, ChronoUnit.DAYS) + " day(s) until lab 4 is due");
 
 
     }

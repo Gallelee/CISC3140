@@ -1,4 +1,4 @@
-terminal app -> git bash version 
+terminal app -> git bash version 2.33.1.windows.1
 node version 16.13.2
 npm version 8.1.2
 text editor -> vscode
