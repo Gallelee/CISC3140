@@ -44,7 +44,10 @@ public class DueDateCounter {
                     LocalDate newDate = LocalDate.of(date.getYear()+1,Integer.parseInt(parsedDate[1]),Integer.parseInt(parsedDate[0]));//creates a new localdate object with a year of the current year plus 1
                     System.out.println("There are "+getDaysBetween(date, newDate) + " day(s) until your custom date");
                 }
-                else System.out.println("Error, try entering the dates in the correct format");
+                else {
+                    System.out.println("Error, try entering the dates in the correct format");
+                    customDate = scan.next();
+                }
                 
             }
         }
