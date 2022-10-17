@@ -36,12 +36,12 @@ public class DueDateCounter {
                 Pattern pattern2 = Pattern.compile("^[0-9]{1,2}\\-[0-9]{1,2}$");//this uses a regex to find dates listed in MM-DD format
                 if(pattern1.matcher(customDate).find()) {
                     String[] parsedDate = customDate.split("/");
-                    LocalDate newDate = LocalDate.of(Integer.parseInt(parsedDate[2]),Integer.parseInt(parsedDate[1]),Integer.parseInt(parsedDate[0]));
+                    LocalDate newDate = LocalDate.of(Integer.parseInt(parsedDate[2]),Integer.parseInt(parsedDate[0]),Integer.parseInt(parsedDate[1]));
                     System.out.println("There are "+getDaysBetween(date,newDate) + " day(s) until your custom date");
                 }
                 else if(pattern2.matcher(customDate).find()){
-                    String[] parsedDate = customDate.split("/");
-                    LocalDate newDate = LocalDate.of(date.getYear()+1,Integer.parseInt(parsedDate[1]),Integer.parseInt(parsedDate[0]));//creates a new localdate object with a year of the current year plus 1
+                    String[] parsedDate = customDate.split("-");
+                    LocalDate newDate = LocalDate.of(date.getYear()+1,Integer.parseInt(parsedDate[0]),Integer.parseInt(parsedDate[1]));//creates a new localdate object with a year of the current year plus 1
                     System.out.println("There are "+getDaysBetween(date, newDate) + " day(s) until your custom date");
                 }
                 else {
