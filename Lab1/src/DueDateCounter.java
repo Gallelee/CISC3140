@@ -20,7 +20,7 @@ public class DueDateCounter {
     public static void main(String[] args){
         LocalDate date = LocalDate.now();//this gets the current date by way of a LocalDate object
         Scanner scan = new Scanner(System.in);//scanner for reading in input
-        System.out.println("Would you like to see days until all due dates[insert Y], or select your own date[insert N]");
+        System.out.println("Would you like to see days until all due dates[insert Y], or select your own date?[insert N]");
         while(scan.hasNext()){
             String optionResponse = scan.next();
             if(optionResponse.equals("Y")){
@@ -50,6 +50,8 @@ public class DueDateCounter {
                 }
                 
             }
+            System.out.println("Would you like to see days until all due dates[insert Y], or select your own date?[insert N]");
+            optionResponse = scan.next();
         }
         
 
