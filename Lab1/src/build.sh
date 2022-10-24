@@ -5,7 +5,7 @@ function compile(){
 }
 
 function run(){
-	java DueDateCounter
+	java DueDateCounter < sampleInput.txt
 }
 
 function runProgram(){
