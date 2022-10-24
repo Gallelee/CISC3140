@@ -23,7 +23,6 @@ public class DueDateCounter {
         System.out.println("Would you like to see days until all due dates[insert Y], or select your own date?[insert N]");
         while(scan.hasNext()){
             String optionResponse = scan.next();
-            System.out.println(optionResponse);
             if(optionResponse.equals("Y")){
                 System.out.println("There are " + getDaysBetween(date,lab1Date) + " day(s) until lab 1 is due");
                 System.out.println("There are " + getDaysBetween(date,lab2Date) + " day(s) until lab 2 is due");
