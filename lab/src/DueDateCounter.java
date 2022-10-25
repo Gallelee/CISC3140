@@ -11,7 +11,7 @@ public class DueDateCounter {
     public static LocalDate lab2Date = LocalDate.of(2022,10,26);
     public static LocalDate lab3Date = LocalDate.of(2022,11,23);
     public static LocalDate lab4Date = LocalDate.of(2022,12,7);
-
+    
     public static long getDaysBetween(LocalDate from, LocalDate to){//returns the number of days between two local dates
         return from.until(to, ChronoUnit.DAYS);
     }
