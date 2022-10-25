@@ -1,0 +1,43 @@
+Script started on 2022-10-25 17:48:11-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;gallelee@DESKTOP-5M95E0C: /mnt/c/users/thimo/CISC3140/lab/src[01;32mgallelee@DESKTOP-5M95E0C[00m:[01;34m/mnt/c/users/thimo/CISC3140/lab/src[00m$ make
+make: Nothing to be done for 'default'.
+]0;gallelee@DESKTOP-5M95E0C: /mnt/c/users/thimo/CISC3140/lab/src[01;32mgallelee@DESKTOP-5M95E0C[00m:[01;34m/mnt/c/users/thimo/CISC3140/lab/src[00m$ make run < sampleInput.txt
+java DueDateCounter
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+There are -28 day(s) until lab 1 is due
+There are 1 day(s) until lab 2 is due
+There are 29 day(s) until lab 3 is due
+There are 43 day(s) until lab 4 is due
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+Enter your date in MM/DD/YYYY or MM-DD formats. If using MM-DD, the year will default to the next year
+There are 231 day(s) until your custom date
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+]0;gallelee@DESKTOP-5M95E0C: /mnt/c/users/thimo/CISC3140/lab/src[01;32mgallelee@DESKTOP-5M95E0C[00m:[01;34m/mnt/c/users/thimo/CISC3140/lab/src[00m$ ./sample.sh
+calling the runProgram function from build.sh via sample.sh: runProgram is a function from build.sh that calls two other functions
+date (GNU coreutils) 8.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by David MacKenzie.
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+There are -28 day(s) until lab 1 is due
+There are 1 day(s) until lab 2 is due
+There are 29 day(s) until lab 3 is due
+There are 43 day(s) until lab 4 is due
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+Enter your date in MM/DD/YYYY or MM-DD formats. If using MM-DD, the year will default to the next year
+There are 231 day(s) until your custom date
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+]0;gallelee@DESKTOP-5M95E0C: /mnt/c/users/thimo/CISC3140/lab/src[01;32mgallelee@DESKTOP-5M95E0C[00m:[01;34m/mnt/c/users/thimo/CISC3140/lab/src[00m$ ./DueDa[KAteCounter.sh
+Would you like to see days until all due dates[insert Y], or select your own date?[insert N]
+N
+chose N
+Enter your date in MM/DD/YYYY or MM-DD formats. If using MM-DD, the year will default to the next year
+06/13/2023
+days until your custom date: 230
+]0;gallelee@DESKTOP-5M95E0C: /mnt/c/users/thimo/CISC3140/lab/src[01;32mgallelee@DESKTOP-5M95E0C[00m:[01;34m/mnt/c/users/thimo/CISC3140/lab/src[00m$ exit
+exit
+
+Script done on 2022-10-25 17:49:44-04:00 [COMMAND_EXIT_CODE="0"]
